@@ -1,0 +1,93 @@
+.board-row {
+	height: 200px;
+	width: 600px;
+	display: inline-flex;
+}
+
+.board-item {
+	height: 200px;
+	width: 200px;
+	margin: 0;
+	border: 5px solid black;
+  font-size: 137px;
+  font-weight: bold;
+}
+
+.board-item:hover {
+	background-color: #AAA;
+}
+
+#board {
+	height: 600px;
+	width: 600px;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tl {
+	border-top: none;
+	border-left: none;
+}
+
+.t {
+	border-top: none;
+}
+
+.tr {
+	border-top: none;
+	border-right: none;
+}
+
+.l {
+	border-left: none;
+}
+
+.r {
+	border-right: none;
+}
+
+.bl {
+	border-bottom: none;
+	border-left: none;
+}
+
+.b {
+	border-bottom: none;
+}
+
+.br {
+	border-bottom: none;
+	border-right: none;
+}
+
+hr {
+	border-top: 4px solid #000 !important;
+}
+
+body, .jumbotron {
+	background-color: white;
+	color: black;
+}
+
+#board {
+	background-color: white;
+}
+
+.choices {
+  font-size: 100px;
+  font-weight: 100;
+}
+
+.choice {
+  font-weight: bold;
+}
+
+.choice:hover {
+	color: gray;
+}
+
+#score{
+	font-size: 40px;
+	margin-bottom: 40px;
+}

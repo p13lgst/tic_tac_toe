@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container jumbotron text-center">
+    	<h1>Tic Tac Toe</h1>
+    	<hr>
+    	<div id="choose">
+    		<h2>Which do you want to use:</h2>
+    		<div class="choices"><span class="choice">X</span> or <span class="choice">O</span>?</div>
+    	</div>
+    	<div id="game" style="display: none">
+    		<div id="score" class="row">
+    			<div class="col-md-4"">
+    				Wins: <span id="wins" class="label label-success">0</span>
+    			</div>
+    			<div class="col-md-4"">
+    				Draws: <span id="draws" class="label label-warning">0</span>
+    			</div>
+    			<div class="col-md-4">
+    				Loses: <span id="loses" class="label label-danger">0</span>
+    			</div>
+    		</div>
+    		<div id="board">
+    			<div class="board-row">
+    				<div id="1" class="board-item tl"></div>
+    				<div id="2" class="board-item t"></div>
+    				<div id="3" class="board-item tr"></div>
+    			</div>
+    			<br>
+    			<div class="board-row">
+    				<div id="4" class="board-item l"></div>
+            <div id="5" class="board-item"></div>
+            <div id="6" class="board-item r"></div>
+    			</div>
+    			<br>
+    			<div class="board-row">
+            <div id="7" class="board-item bl"></div>
+            <div id="8" class="board-item b"></div>
+            <div id="9" class="board-item br"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
